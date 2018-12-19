@@ -8,7 +8,6 @@ import android.media.SoundPool;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -251,7 +250,7 @@ public class QRActivity extends Activity implements View.OnClickListener {
         ProgressBar pb_loading = (ProgressBar) view.findViewById(R.id.pb_loading);
         TextView tv_hint = (TextView) view.findViewById(R.id.tv_hint);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            pb_loading.setIndeterminateTintList(ContextCompat.getColorStateList(this, R.color.dialog_pro_color));
+            pb_loading.setIndeterminateTintList(getResources().getColorStateList(R.color.dialog_pro_color));
         }
         progressDialog = builder.create();
         progressDialog.show();
