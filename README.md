@@ -202,11 +202,6 @@ String s = QRUtils.getInstance().decodeBarcode(iv_qr);
 #### 二维码也就这些需求吧，这么简单就可以搞定了，识别速度是zxing的很多倍！方便了你的话可不可以给个Start，如遇BUG请Issues
 
 
-### DEMO
-![](https://www.pgyer.com/app/qrcode/CyKm)
-
-#### [传送门](https://www.pgyer.com/CyKm "传送门")
-
 ### 关于作者
     南尘<br>
     四川成都<br>
