@@ -229,12 +229,6 @@ public class QRActivity extends Activity implements View.OnClickListener {
                 }
             }).start();
         }
-
-//        if (resultCode == RESULT_OK) {
-//            final Uri uri = data.getData();
-//            final ContentResolver cr = this.getContentResolver();
-//
-//        }
         super.onActivityResult(requestCode, resultCode, data);
     }
 
